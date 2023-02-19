@@ -6,13 +6,11 @@ import "../assets/NavBar.css";
 function NavBar(): JSX.Element{
     return(
         <Navbar bg='light' expand="md">
-            <Navbar.Brand href='/'> <h2 className='nav-header'>TaskManager <small className='text-muted'>App</small></h2> </Navbar.Brand>
+            <Navbar.Brand href='/'> <h2 className='nav-header'>Blog <small className='text-muted'>App</small></h2> </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
                 <Nav className='nav-1'>
-                    <Nav.Link className='nav-item' href='/todo'>To-Do</Nav.Link>
-                    <Nav.Link className='nav-item' href='/reminders'>Reminders</Nav.Link>
-                    <Nav.Link className='nav-item' href='/trackers'>Trackers</Nav.Link>
+                    <Nav.Link className='nav-item' href='/posts'>Posts</Nav.Link>
                 </Nav>
                 <Nav className='nav-2'>
                     <Nav.Link className='nav-item' href='/'>Log In</Nav.Link>
